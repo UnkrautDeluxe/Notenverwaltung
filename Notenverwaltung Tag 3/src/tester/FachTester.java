@@ -36,7 +36,7 @@ public class FachTester {
 			System.out.println(r);
 			
 			// Sport
-			f.neuesSportHinzufuegen("4.4.2000", 4.5, 4.5, 5.0, 4.0, 5.0);
+			f.neuesSportHinzufuegen("4.4.2000", 3.0, 4.0, 5.5, 5.0, 4.0);
 			Sport s = f.getSport("4.4.2000"); // sucht das Element mit dem Datum 4.4.2000
 			System.out.println(s);
 			

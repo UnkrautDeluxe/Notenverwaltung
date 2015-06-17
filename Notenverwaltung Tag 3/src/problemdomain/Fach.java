@@ -43,7 +43,7 @@ public class Fach {
 	// 2 Methoden neuesSportHinzufuegen() analog zu den beiden vorstehenden und
 	//                                      entsprechend den beiden Konstruktoren
 	public void neuesSportHinzufuegen (String d, double n1, double n2, double n3, double n4, double n5){
-		Sport s = new Sport(d, n3, n3, n3, n3, n3);
+		Sport s = new Sport(d, n1, n2, n3, n4, n5);
 		leistungsnachweise.add(s);
 	}
 //	public void neuesSportHinzufuegen(String d, double n3, double n1, double n2){
@@ -61,7 +61,8 @@ public class Fach {
 		}
 		if(notenAnzahl==0){
 			return 0.0;
-		} else {
+		}
+		else {
 			return notenSumme/notenAnzahl;
 		}
 	}
@@ -117,6 +118,7 @@ public class Fach {
 			   "\n           Gewicht: " + getGewicht() +
 			   "\n           Anzahl Leistungsnachweise: " + getAnzahlLeistungsnachweise() +
 			   "\n           Fachnote: " + getFachnote() + "\n";
+
 	}
 	private boolean pruefeGewicht(int gewicht){
 		return gewicht>0;

@@ -101,6 +101,6 @@ public class Student {
 				+ getGebDatumTag() + "." + getGebDatumMonat() + "." + getGebDatumJahr() + 
 				"\nAnzahl Fächer: " + getAnzahlFaecher() +
 				"\nNotenschnitt: " + getNotenSchnitt2() +
-				"\n\nNeue Zeile irgendwas: " + getNotenSchnitt2();
+				"\n\nNeue Zeile ihhhrgendwas: " + getNotenSchnitt2();
 		}
 }

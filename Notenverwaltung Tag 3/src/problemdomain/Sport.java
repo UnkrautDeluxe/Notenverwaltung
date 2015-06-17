@@ -33,6 +33,6 @@ public class Sport extends Leistungsnachweis {
 		return (note1+note2+note3+note4+note5)/5;
 	}
 	public String toString(){
-			return super.toString() + " vom Typ Sport alteeeer";
+			return super.toString() + " (Sport.jave) vom Typ Sport alteeeer";
 	}
 }
